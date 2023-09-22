@@ -11,10 +11,10 @@ public class PrototypePattern {
         Student studentStarter = new Student(); //Creating starter object/instance
         studentStarter.loadStudent(); //Load database into starter
 
-        Student student1 = (Student) studentStarter.getClone(); //Creating object by cloning the starter rather than creating with constructor
+        Student student1 = studentStarter.getClone(); //Creating object by cloning the starter rather than creating with constructor
         student1.getStudentList().add("Arif"); //Modifying object
 
-        Student student2 = (Student) studentStarter.getClone(); //Creating object by cloning the starter rather than creating with constructor
+        Student student2 = studentStarter.getClone(); //Creating object by cloning the starter rather than creating with constructor
         student2.getStudentList().add("Rakib"); //Modifying object
         student2.getStudentList().add("Faiyaz"); //Modifying object
 

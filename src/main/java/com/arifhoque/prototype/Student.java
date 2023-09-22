@@ -38,8 +38,13 @@ public class Student implements Prototype{
      *
      * @return Student
      */
+    /*
+    In previous version of code return type was Prototype as it was overriding from Prototype interface
+    but with overriding rule we can change the signature of the method .
+    so we made the return type as Student to avoid typecasting in main method.
+     */
     @Override
-    public Prototype getClone() {
+    public Student getClone() {
         //Method to clone existing object and return
         List<String> studentListClone = new ArrayList<>(this.getStudentList());
         return new Student(studentListClone);
