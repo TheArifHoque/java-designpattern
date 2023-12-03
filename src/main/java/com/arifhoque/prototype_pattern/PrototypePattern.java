@@ -1,4 +1,4 @@
-package com.arifhoque.prototype;
+package com.arifhoque.prototype_pattern;
 
 import java.util.ArrayList;
 import java.util.List;

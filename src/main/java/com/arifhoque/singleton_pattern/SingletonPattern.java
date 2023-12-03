@@ -1,6 +1,6 @@
-package com.arifhoque.singleton;
+package com.arifhoque.singleton_pattern;
 
-public class Singleton {
+public class SingletonPattern {
     /*
     The Singleton Design Pattern is one of the creational design patterns in software engineering.
     It ensures that a class has only one instance (object) and provides a global point of access to that instance.
