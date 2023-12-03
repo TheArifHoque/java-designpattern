@@ -1,5 +1,10 @@
 package com.arifhoque.builder_pattern;
 
+/*
+    The builder design pattern is a creational design pattern that lets you construct complex objects step by step.
+    It allows you to produce different types and representations of a product using the same construction code.
+    The builder design pattern is a powerful tool for creating complex objects in a flexible and maintainable way.
+*/
 public class BuilderPattern {
     public static void main(String[] args) {
         Student student = new Student
@@ -35,6 +40,7 @@ class Student {
                 '}';
     }
 
+    //Builder Class
     public static class Builder {
         private final Integer studentId;  // Mandatory field
         private final String fullName;    // Mandatory field
