@@ -48,6 +48,8 @@ class Student {
         private final String batchName;   // Mandatory field
         private String address;           // Optional field
 
+        //As there are mandatory field they're added in constructor. If there's no need of that you can keep the constructor empty.
+        //And set the fields like below optional field
         public Builder(Integer studentId, String fullName, String batchName) {
             this.studentId = studentId;
             this.fullName = fullName;
